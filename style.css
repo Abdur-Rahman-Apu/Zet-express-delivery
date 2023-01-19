@@ -1,0 +1,11 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+/* css variables */
+:root {
+    --primary-color: #FFCC00;
+    --secondary-color: #F5F5F5;
+    --menu-hover-color: #EDD98B;
+    --font-inter: 'Inter', sans-serif;
+}
