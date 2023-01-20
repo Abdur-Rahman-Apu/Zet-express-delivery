@@ -49,6 +49,50 @@ body {
 
 /* main section start  */
 
+/* track delivery section  */
+.track-delivery {
+    margin-top: 40px;
+    margin-bottom: 91px;
+}
+
+.track-delivery .card {
+    width: 1108px;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 8px 15px 8px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+}
+
+.track-delivery .card-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.track-code {
+    width: 78%;
+    margin: 0 auto;
+}
+
+
+.track-code input[type="text"] {
+    width: 80%;
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    padding: 5px 12px;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.track-code button {
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 5px 20px;
+    border-color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
 /* calculate section  */
 
 .calculate-section .row {
