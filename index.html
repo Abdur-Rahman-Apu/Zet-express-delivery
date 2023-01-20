@@ -36,7 +36,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active-menu" aria-current="page" href="#">Home</a>
                         </li>
@@ -70,21 +70,18 @@
 
         <!-- slider start  -->
         <div id="carousel-indicators" class="carousel slide container" data-bs-ride="carousel">
-            <!-- <div class=" carousel-indicators">
-                <button type="button" data-bs-target="#carousel-indicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carousel-indicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carousel-indicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div> -->
+
             <div class="carousel-inner">
                 <div class="carousel-item active ">
 
-                    <div class=" d-flex justify-content-between align-content-center align-items-center">
+                    <div
+                        class="d-flex flex-column  flex-md-row  justify-content-md-between align-content-md-center align-items-md-center">
                         <div>
-                            <h3>We Have <span> Fast <br> Delivery </span>To Your <br> <span>Home</span></h3>
-                            <p>We are the best fastest courier service in <br> Bangladesh which will provide you hassle
+                            <h3 class="text-center text-md-start">We Have <span> Fast <br> Delivery </span>To Your <br>
+                                <span>Home</span>
+                            </h3>
+                            <p class="text-center text-md-start">We are the best fastest courier service in <br>
+                                Bangladesh which will provide you hassle
                                 free
                                 <br>
                                 service.
@@ -97,10 +94,14 @@
                 </div>
                 <div class="carousel-item">
 
-                    <div class=" d-flex justify-content-between align-content-center align-items-center">
+                    <div
+                        class=" d-flex flex-column  flex-md-row  justify-content-md-between align-content-md-center align-items-md-center">
                         <div>
-                            <h3>We Have <span> Fast <br> Delivery </span>To Your <br> <span>Home</span></h3>
-                            <p>We are the best fastest courier service in <br> Bangladesh which will provide you hassle
+                            <h3 class="text-center text-md-start">We Have <span> Fast <br> Delivery </span>To Your <br>
+                                <span>Home</span>
+                            </h3>
+                            <p class="text-center text-md-start">We are the best fastest courier service in <br>
+                                Bangladesh which will provide you hassle
                                 free
                                 <br>
                                 service.
@@ -113,10 +114,14 @@
                 </div>
                 <div class="carousel-item  ">
 
-                    <div class="d-flex justify-content-between align-content-center align-items-center">
+                    <div
+                        class="d-flex flex-column  flex-md-row  justify-content-md-between align-content-md-center align-items-md-center">
                         <div>
-                            <h3>We Have <span> Fast <br> Delivery </span>To Your <br> <span>Home</span></h3>
-                            <p>We are the best fastest courier service in <br> Bangladesh which will provide you hassle
+                            <h3 class="text-center text-md-start">We Have <span> Fast <br> Delivery </span>To Your <br>
+                                <span>Home</span>
+                            </h3>
+                            <p class="text-center text-md-start">We are the best fastest courier service in <br>
+                                Bangladesh which will provide you hassle
                                 free
                                 <br>
                                 service.
@@ -128,20 +133,11 @@
                     </div>
                 </div>
             </div>
-            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carousel-indicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carousel-indicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button> -->
+
         </div>
         <!-- track delivery  -->
-        <section class="track-delivery">
-            <div class="card mx-auto shadow-md">
+        <section class="track-delivery container">
+            <div class="card mx-auto w-100 shadow-md">
                 <div class="card-body">
                     <h5 class="card-title text-center">TRACK YOUR DELIVERY</h5>
 
@@ -157,7 +153,7 @@
         <section class="calculate-section container">
             <h3 class="text-center">Calculate Your Delivery Charge</h3>
 
-            <div class="row row-col-6">
+            <div class="row  row-cols-1 g-3  row-cols-lg-6">
                 <div class="col">
                     <label for="from" class="form-label d-block">From</label>
                     <select id="from" name="from" class="p-1">
@@ -199,7 +195,7 @@
 
                 <div class="col">
                     <label for="weight" class="form-label d-block">Weight (KG)</label>
-                    <input type="text" name="weight" id="weight" placeholder="2" class="px-1">
+                    <input type="number" name="weight" id="weight" placeholder="2" class="px-1">
                 </div>
             </div>
 
@@ -218,7 +214,7 @@
         <!-- our hub section  -->
         <section class="hub-section container">
             <h3 class="text-center">Our Hub</h3>
-            <div class="row row-cols-6 g-3 justify-content-between">
+            <div class="row row-cols-6 g-3 justify-content-sm-between">
                 <div class="col px-2 py-1 d-flex justify-content-between">
                     <span>Badda Hub</span>
                     <span><i class="fa-solid fa-location-dot"></i></span>
@@ -266,23 +262,23 @@
 
         <section class="sponsor-section container">
             <h3 class="text-center">Sponsors</h3>
-            <div class="row row-cols-6 align-items-center mt-3">
-                <div class="col text-center">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-6 align-items-center mt-3">
+                <div class="col my-4 my-lg-0 text-center">
                     <img src="./images/sponsors/Top.png" width="82" class="img-fluid" alt="img">
                 </div>
-                <div class="col text-center">
+                <div class="col my-4 my-lg-0 text-center">
                     <img src="./images/sponsors/square company.png" width="30" class="img-fluid" alt="img">
                 </div>
-                <div class="col text-center">
+                <div class="col my-4 my-lg-0 text-center">
                     <img src="./images/sponsors/Hatil.png" width="100" class="img-fluid" alt="img">
                 </div>
-                <div class="col text-center">
+                <div class="col my-4 my-lg-0 text-center">
                     <img src="./images/sponsors/Rangs.png" width="110" class="img-fluid" alt="img">
                 </div>
-                <div class="col text-center">
+                <div class="col my-4 my-lg-0 text-center">
                     <img src="./images/sponsors/lotto.png" width="130" class="img-fluid" alt="img">
                 </div>
-                <div class="col text-center">
+                <div class="col my-4 my-lg-0 text-center">
                     <img src="./images/sponsors/OTOBI.png" width="60" class="img-fluid" alt="img">
                 </div>
             </div>
@@ -293,9 +289,9 @@
             <h3 class="text-center">Why Choose Us</h3>
 
             <div class="features container">
-                <div class="row row-cols-3">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <!-- feature 1 -->
-                    <div class="card text-center mb-3">
+                    <div class="card text-center mb-4">
                         <div class="card-body">
                             <img class="img-fluid" src="./images//features/flag.png" width="55" height="57" alt="img">
                             <p class="card-text">"Lowest rate delivery facility across the country including Dhaka city,
@@ -306,7 +302,7 @@
                     </div>
 
                     <!-- feature 2 -->
-                    <div class="card text-center mb-3">
+                    <div class="card text-center mb-4">
                         <div class="card-body">
                             <img class="img-fluid mt-4" src="./images//features/destination.png" width="55" height="57"
                                 alt="img">
@@ -317,7 +313,7 @@
                     </div>
 
                     <!-- feature 3 -->
-                    <div class="card text-center mb-3">
+                    <div class="card text-center mb-4">
                         <div class="card-body">
                             <img class="img-fluid" src="./images//features/location.png" width="47" height="40"
                                 alt="img">
@@ -327,7 +323,7 @@
                     </div>
 
                     <!-- feature 4 -->
-                    <div class="card text-center mb-3">
+                    <div class="card text-center mb-4">
                         <div class="card-body">
                             <img class="img-fluid" src="./images//features/money.png" width="55" height="55" alt="img">
                             <p class="card-text">"Payment seven days a week including Friday Saturday - Bank or Bikash,
@@ -337,7 +333,7 @@
                     </div>
 
                     <!-- feature 5 -->
-                    <div class="card text-center mb-3">
+                    <div class="card text-center mb-4">
                         <div class="card-body">
                             <img class="img-fluid" src="./images//features/avatar.png" width="55" height="57" alt="img">
                             <p class="card-text">"Our customer care is available for any information any time."
@@ -346,7 +342,7 @@
                     </div>
 
                     <!-- feature 6 -->
-                    <div class="card text-center mb-3">
+                    <div class="card text-center mb-4">
                         <div class="card-body">
                             <img class="img-fluid" src="./images//features/payment.png" width="55" height="57"
                                 alt="img">
@@ -366,11 +362,11 @@
     <!-- footer start  -->
     <footer>
         <div class="py-5">
-            <div class="row row-cols-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 flex-wrap flex-lg-nowrap">
                 <div class="col">
                     <h3>Support</h3>
-                    <p class="mt-3">FAQ</p>
-                    <p>Terms and Conditions</p>
+                    <p class="mt-3"><a href="#">FAQ</a></p>
+                    <p><a href="#">Terms and Conditions</a></p>
                 </div>
                 <div class="col download">
                     <h3>Download</h3>

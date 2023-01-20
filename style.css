@@ -27,6 +27,18 @@ body {
     box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.25);
 }
 
+.navbar-collapse {
+    background-color: var(--primary-color);
+}
+
+.navbar li:not(last-child) {
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    margin-right: 150px;
+}
+
 .active-menu {
     background-color: var(--menu-hover-color);
     border-radius: 5px;
@@ -195,6 +207,10 @@ body {
     margin-top: 90px;
 }
 
+.sponsor-section h3 {
+    font-weight: 600;
+}
+
 .sponsor-section img {
     margin: 0 auto;
 }
@@ -207,7 +223,7 @@ body {
 .sponsor-section h3 {
     font-family: var(--font-inter);
     font-weight: 600;
-    font-size: 35px;
+    /* font-size: 35px; */
 }
 
 .features {
@@ -231,7 +247,7 @@ body {
 /* footer style start  */
 
 footer {
-    height: 254px;
+    min-height: 254px;
     width: 100%;
     background-color: #000;
     color: white;
@@ -255,8 +271,18 @@ footer h3 {
 
 footer p {
     font-size: 16px;
-
 }
+
+footer p a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p a:hover {
+    color: var(--primary-color);
+}
+
+
 
 footer .download {
     position: relative;
@@ -294,3 +320,84 @@ footer .contact p {
 }
 
 /* footer style end  */
+
+
+/* responsive part  */
+
+/* mobiles */
+@media only screen and (max-width: 600px) {
+
+    .carousel {
+        margin-top: 40px;
+    }
+
+    .carousel-item h3 {
+        font-size: 44px;
+    }
+
+    .carousel-item p {
+        font-size: 15px;
+    }
+
+    .carousel-item img {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+
+    .track-code input[type="text"] {
+        margin: 10px 0 15px 0;
+        width: 100%;
+    }
+
+    .track-code button {
+        display: block;
+        width: 30%;
+        margin: 10px auto;
+    }
+
+    .calculate-section {
+        margin: 5px 20px;
+    }
+
+    .calculate-section .row {
+        justify-content: space-around;
+        margin: 40px 20px;
+
+    }
+
+    .calculate-section input[type="number"] {
+        width: 100%;
+    }
+
+    .charge-info p {
+        font-size: 12px;
+    }
+
+    .hub-section .row {
+        justify-content: center;
+    }
+
+    .hub-section .row .col {
+        margin-right: 10px;
+    }
+
+    footer .row {
+        justify-content: center;
+    }
+
+    footer .row .col {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+
+
+    footer .download img {
+        position: relative;
+
+    }
+
+
+
+}
