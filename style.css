@@ -10,6 +10,10 @@
     --font-inter: 'Inter', sans-serif;
 }
 
+body {
+    background-color: var(--secondary-color);
+}
+
 /* navbar style start */
 
 .navbar {
@@ -41,7 +45,35 @@
     background-color: var(--secondary-color);
 }
 
-/* navbar style end  */
+
+/* main section start  */
+
+
+
+
+/* feature section  */
+
+.feature-section h3 {
+    font-family: var(--font-inter);
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.features {
+    margin-top: 75px;
+}
+
+.features .card {
+    border: none;
+}
+
+.features .card-text {
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #000;
+    margin-top: 50px;
+}
 
 
 
