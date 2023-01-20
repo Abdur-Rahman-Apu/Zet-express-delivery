@@ -48,12 +48,17 @@ body {
 
 /* main section start  */
 
+/* sponsor section  */
+.sponsor-section img {
+    margin: 0 auto;
+}
 
 
 
 /* feature section  */
 
-.feature-section h3 {
+.feature-section h3,
+.sponsor-section h3 {
     font-family: var(--font-inter);
     font-weight: 600;
     font-size: 35px;
