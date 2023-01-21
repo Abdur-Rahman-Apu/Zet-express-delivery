@@ -5,5 +5,3 @@ const navLinks = document.querySelectorAll('header nav .container .collapse ul l
         link.classList.add('active-menu')
     }
 })
-
-
