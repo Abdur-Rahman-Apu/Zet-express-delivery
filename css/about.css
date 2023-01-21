@@ -6,28 +6,32 @@
 
 @import url("./footer.css");
 
+
 main h3 {
     font-family: var(--font-inter);
     font-weight: 600;
 }
 
-.mission .card {
+.card {
     width: 85%;
     background-color: var(--secondary-color);
     box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    margin-bottom: 50px;
 }
 
-.mission .card-title {
+.card-title {
     font-weight: 600;
     font-family: var(--font-inter);
+    margin-top: 5px;
 }
 
 .mission-info {
     padding: 0 14px;
 }
 
-.mission-info p {
+.mission-info p,
+vision-info p {
     font-family: var(--font-inter);
     font-weight: 400;
 

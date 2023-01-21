@@ -3,10 +3,11 @@
     --primary-color: #FFCC00;
     --secondary-color: #F5F5F5;
     --menu-hover-color: #EDD98B;
+    --body-color: #FFFDF4;
     --font-inter: 'Inter', sans-serif;
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--body-color);
     font-family: var(--font-inter);
 }
