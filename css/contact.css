@@ -6,7 +6,7 @@
 
 @import url("./footer.css");
 
-.contact h3 {
+.contact-section h3 {
     font-family: var(--font-inter);
     font-weight: 600;
     margin-top: 60px;

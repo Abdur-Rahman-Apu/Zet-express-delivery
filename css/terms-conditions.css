@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@import url("./common.css");
+
+@import url("./header.css");
+
+@import url("./footer.css");
+
+main h3 {
+    font-family: var(--font-inter);
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.termsConditions p {
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 1em;
+}
