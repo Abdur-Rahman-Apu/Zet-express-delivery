@@ -41,7 +41,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav ms-auto mb-2 p-3 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                         </li>
@@ -53,7 +53,7 @@
                             <a href="./contact.html" class="nav-link">Contact Us</a>
                         </li>
                     </ul>
-                    <div>
+                    <div class="p-3">
                         <button class="btn-signup rounded mr-3 border-1" role="button">Sign up</button>
                         <button class="btn-login rounded border-0" role="button">Login</button>
                     </div>
@@ -61,9 +61,75 @@
             </div>
         </nav>
     </header>
-    <h1>Contact us</h1>
+
+    <!-- main part start  -->
+    <main>
+        <section class="contact">
+            <h3 class="text-center">Contact Us</h3>
+
+            <div class="contact-form container">
+                <div class="row row-cols-1  row-cols-lg-4">
+                    <div class="col me-4">
+                        <div class="mb-4">
+                            <div class="contact-card text-center">
+                                <img src="./images/contact/location.png" width="70" height="108" class="img-fluid"
+                                    alt="img">
+                                <p class="contact-card-title">
+                                    Our Main Office
+                                </p>
+                                <p class="contact-card-info">
+                                    House # 30, Road # 4, PC Culture Housing, Mohammadpur , Dhaka-1207
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div class="contact-card text-center">
+                                    <img src="./images/contact/phone.png" width="107" height="110" class="img-fluid"
+                                        alt="img">
+                                    <p class="contact-card-title">
+                                        Phone Number
+                                    </p>
+                                    <p class="contact-card-info">
+                                        +8801916-888816
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-4 my-lg-0 me-4">
+                        <div>
+                            <div class="contact-card text-center">
+                                <img src="./images/contact/mail.png" width="124" height="97" class="img-fluid"
+                                    alt="img">
+                                <p class="contact-card-title">
+                                    Gmail
+                                </p>
+                                <p class="contact-card-info">
+                                    zeteexpress@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-4 contact-info">
+                        <div class="contact-form-value">
+                            <input type="text" name="name" id="name" placeholder="Name">
+                            <input type="email" name="email" id="email" placeholder="Gmail">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                            <button class="d-block ms-auto">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer include-html="./footer.html" id="footer_file">
     </footer>
+
+    <!-- bootstrap js link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
