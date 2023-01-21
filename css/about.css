@@ -5,3 +5,34 @@
 @import url("./header.css");
 
 @import url("./footer.css");
+
+main h3 {
+    font-family: var(--font-inter);
+    font-weight: 600;
+}
+
+.mission .card {
+    width: 85%;
+    background-color: var(--secondary-color);
+    box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.mission .card-title {
+    font-weight: 600;
+    font-family: var(--font-inter);
+}
+
+.mission-info {
+    padding: 0 14px;
+}
+
+.mission-info p {
+    font-family: var(--font-inter);
+    font-weight: 400;
+
+}
+
+.mission-info p:first-child {
+    margin-bottom: 5px;
+}
