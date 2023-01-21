@@ -31,7 +31,7 @@ main h3 {
 }
 
 .mission-info p,
-vision-info p {
+.vision-info p {
     font-family: var(--font-inter);
     font-weight: 400;
 
@@ -55,7 +55,7 @@ vision-info p {
     box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .card-box .img {
@@ -75,4 +75,12 @@ vision-info p {
 
 .card-box .info p:last-child {
     font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .mission-info p,
+    .vision-info p {
+        font-size: 10px;
+    }
 }
