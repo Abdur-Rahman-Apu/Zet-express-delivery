@@ -86,8 +86,10 @@
     padding: 5px 20px;
     border-color: var(--primary-color);
     font-weight: 600;
+    font-size: 1em;
     margin-bottom: 35px;
 }
+
 
 /* calculate section  */
 
@@ -228,8 +230,7 @@
 
     .track-code button {
         display: block;
-        width: 30%;
-        margin: 10px auto;
+        margin: 0 auto;
     }
 
     .calculate-section {
