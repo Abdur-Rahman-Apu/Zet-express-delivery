@@ -40,3 +40,39 @@ vision-info p {
 .mission-info p:first-child {
     margin-bottom: 5px;
 }
+
+.management-team h3 {
+    font-family: var(--font-inter);
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.management-team .card-box {
+    width: 355px;
+    height: 380px;
+    background: #FFF1CD;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.card-box .img {
+    width: 295px;
+    height: 231px;
+    border: 1px solid #000000;
+    margin-bottom: 9px;
+}
+
+.card-box .info p {
+    font-family: var(--font-inter);
+}
+
+.card-box .info p:first-child {
+    font-weight: 500;
+}
+
+.card-box .info p:last-child {
+    font-weight: 700;
+}
