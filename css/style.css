@@ -79,7 +79,7 @@ body {
 
 .carousel-item {
     height: 90vh;
-    background-image: url(./images/slider/slider-airplane.png);
+    background-image: url(../images/slider/slider-airplane.png);
     background-repeat: no-repeat;
     background-position: 47%, 50%;
     background-size: 35%;
