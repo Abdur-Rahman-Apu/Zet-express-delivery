@@ -19,17 +19,23 @@ footer .row {
 
 
 footer h3 {
+    font-family: var(--font-inter);
     font-weight: 600;
     font-size: 20px;
 }
 
 footer p {
+    font-family: var(--font-inter);
+    font-weight: 400;
     font-size: 16px;
 }
 
 footer p a {
     text-decoration: none;
     color: white;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    font-size: 14px;
 }
 
 footer p a:hover {
@@ -56,10 +62,11 @@ footer .social-icon {
     display: inline-block;
     width: 25px;
     height: 25px;
+    text-align: center;
 
 }
 
-footer span:not(:last-child) {
+footer a:not(:last-child) {
     margin-right: 20px;
 }
 
@@ -74,7 +81,9 @@ footer .contact p {
 }
 
 
-@media only screen and (max-width: 600px) {
+/* phone & tablet  */
+@media only screen and (max-width: 768px) {
+
 
     footer .row {
         justify-content: center;
@@ -85,13 +94,10 @@ footer .contact p {
         text-align: center;
     }
 
-
-
     footer .download img {
         position: relative;
 
     }
-
 
 
 }
