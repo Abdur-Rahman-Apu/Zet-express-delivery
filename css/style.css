@@ -256,6 +256,11 @@
     }
 
     .hub-section .row .col {
+        width: 40%;
+        font-size: 12px;
+    }
+
+    .hub-section .row .col {
         margin-right: 10px;
     }
 
