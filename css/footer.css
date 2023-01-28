@@ -68,6 +68,7 @@ footer .social-icon {
 
 footer a:not(:last-child) {
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 footer .contact i {
