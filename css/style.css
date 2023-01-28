@@ -98,6 +98,11 @@
     margin-bottom: 50px;
 }
 
+.calculate-section h3 {
+    font-family: var(--font-inter);
+    font-weight: 600;
+}
+
 .calculate-section select {
     width: 100%;
 }
