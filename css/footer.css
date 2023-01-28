@@ -95,6 +95,10 @@ footer .contact p {
         text-align: center;
     }
 
+    footer a:not(:last-child) {
+        margin-right: 0px;
+    }
+
     footer .download img {
         position: relative;
 
