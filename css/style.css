@@ -14,7 +14,7 @@
 
 /* slider  */
 .carousel {
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .carousel-item {
@@ -234,18 +234,19 @@
 /* responsive part  */
 
 /* mobiles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
     .carousel {
         margin-top: 40px;
     }
 
     .carousel-item h3 {
-        font-size: 44px;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .carousel-item p {
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .carousel-item img {

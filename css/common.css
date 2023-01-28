@@ -10,4 +10,5 @@
 body {
     background-color: var(--body-color);
     font-family: var(--font-inter);
+    width: 100vw;
 }

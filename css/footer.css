@@ -81,8 +81,9 @@ footer .contact p {
 }
 
 
-/* phone & tablet  */
+/* tablet  */
 @media only screen and (max-width: 768px) {
+
 
 
     footer .row {
@@ -100,4 +101,40 @@ footer .contact p {
     }
 
 
+}
+
+@media only screen and (max-width: 320px) {
+    footer {
+        padding: 0;
+    }
+
+    footer h3 {
+        font-size: 12px;
+    }
+
+    footer a {
+        margin-bottom: 10px;
+    }
+
+    footer i {
+        font-size: 10px;
+    }
+
+    footer .row {
+        margin: 0;
+        align-items: center;
+    }
+
+    footer a:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    footer .support p a {
+        font-size: 8px;
+    }
+
+    footer .contact p {
+        font-size: .5em;
+        margin-bottom: 0px;
+    }
 }
